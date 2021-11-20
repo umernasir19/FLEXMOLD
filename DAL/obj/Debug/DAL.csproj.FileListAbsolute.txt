@@ -1,0 +1,7 @@
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\DAL\bin\Debug\DAL.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\DAL\bin\Debug\DAL.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\DAL\bin\Debug\Propert_Utility.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\DAL\bin\Debug\Propert_Utility.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\DAL\obj\Debug\DAL.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\DAL\obj\Debug\DAL.pdb

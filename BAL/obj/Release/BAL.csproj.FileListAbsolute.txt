@@ -1,0 +1,9 @@
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\BAL\bin\Release\BAL.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\BAL\bin\Release\BAL.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\BAL\bin\Release\DAL.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\BAL\bin\Release\Propert_Utility.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\BAL\bin\Release\DAL.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\BAL\bin\Release\Propert_Utility.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\BAL\obj\Release\BAL.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\BAL\obj\Release\BAL.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\BAL\obj\Release\BAL.pdb

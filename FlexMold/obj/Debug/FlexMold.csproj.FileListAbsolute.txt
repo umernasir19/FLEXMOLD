@@ -1,0 +1,37 @@
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\bin\Debug\FlexMold.exe.config
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\bin\Debug\FlexMold.exe
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\bin\Debug\FlexMold.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\bin\Debug\BAL.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\bin\Debug\MetroFramework.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\bin\Debug\MetroFramework.Fonts.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\bin\Debug\MetroSet UI.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\bin\Debug\Propert_Utility.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\bin\Debug\BAL.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\bin\Debug\Propert_Utility.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\obj\Debug\FlexMold.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\obj\Debug\FlexMold.Form1.resources
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\obj\Debug\FlexMold.Forms.FrmDashboard.resources
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\obj\Debug\FlexMold.Properties.Resources.resources
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\obj\Debug\FlexMold.csproj.GenerateResource.Cache
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\obj\Debug\FlexMold.exe
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\FlexMold\obj\Debug\FlexMold.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\bin\Debug\FlexMold.exe
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\bin\Debug\MetroFramework.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\bin\Debug\MetroSet UI.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\bin\Debug\Propert_Utility.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\bin\Debug\FlexMold.exe.config
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\bin\Debug\FlexMold.exe.manifest
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\bin\Debug\FlexMold.application
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\bin\Debug\BAL.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\bin\Debug\MetroFramework.Fonts.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\bin\Debug\BAL.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\bin\Debug\Propert_Utility.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\obj\Debug\FlexMold.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\obj\Debug\FlexMold.Forms.FrmDashboard.resources
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\obj\Debug\FlexMold.Forms.FrmSplashScreen.resources
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\obj\Debug\FlexMold.Properties.Resources.resources
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\obj\Debug\FlexMold.csproj.GenerateResource.Cache
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\obj\Debug\FlexMold.exe.manifest
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\obj\Debug\FlexMold.application
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\obj\Debug\FlexMold.exe
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\obj\Debug\FlexMold.pdb
