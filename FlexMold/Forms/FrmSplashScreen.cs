@@ -27,7 +27,7 @@ namespace FlexMold.Forms
             {
                 timer1.Stop();
                 this.Hide();
-                FrmDashboard objdashboard = new FrmDashboard();
+                FrmHome objdashboard = new FrmHome();
                 objdashboard.Show();
 
             }
