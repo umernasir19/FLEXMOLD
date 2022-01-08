@@ -1,0 +1,23 @@
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\DAL\bin\Debug\DAL.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\DAL\bin\Debug\DAL.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\DAL\bin\Debug\Propert_Utility.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\DAL\bin\Debug\Propert_Utility.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\DAL\obj\Debug\DAL.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\DAL\obj\Debug\DAL.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\DAL\bin\Debug\DAL.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\DAL\bin\Debug\DAL.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\DAL\bin\Debug\Propert_Utility.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\DAL\bin\Debug\Propert_Utility.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\DAL\obj\Debug\DAL.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\DAL\obj\Debug\DAL.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\DAL\bin\Debug\DAL.dll
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\DAL\bin\Debug\DAL.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\DAL\bin\Debug\Propert_Utility.dll
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\DAL\bin\Debug\Propert_Utility.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\DAL\obj\Debug\DAL.dll
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\DAL\obj\Debug\DAL.pdb

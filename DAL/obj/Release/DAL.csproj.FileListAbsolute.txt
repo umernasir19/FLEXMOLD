@@ -1,0 +1,7 @@
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\DAL\bin\Release\DAL.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\DAL\bin\Release\DAL.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\DAL\bin\Release\Propert_Utility.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\DAL\bin\Release\Propert_Utility.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\DAL\obj\Release\DAL.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\DAL\obj\Release\DAL.pdb

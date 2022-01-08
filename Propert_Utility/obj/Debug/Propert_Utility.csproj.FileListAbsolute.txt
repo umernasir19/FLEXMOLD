@@ -1,0 +1,15 @@
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\Propert_Utility\bin\Debug\Propert_Utility.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\Propert_Utility\bin\Debug\Propert_Utility.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\Propert_Utility\obj\Debug\Propert_Utility.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\Propert_Utility\obj\Debug\Propert_Utility.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\FlexMold\Propert_Utility\obj\Debug\Propert_Utility.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\Propert_Utility\bin\Debug\Propert_Utility.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\Propert_Utility\bin\Debug\Propert_Utility.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\Propert_Utility\obj\Debug\Propert_Utility.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\Propert_Utility\obj\Debug\Propert_Utility.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\Propert_Utility\bin\Debug\Propert_Utility.dll
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\Propert_Utility\bin\Debug\Propert_Utility.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\Propert_Utility\obj\Debug\Propert_Utility.csproj.AssemblyReference.cache
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\Propert_Utility\obj\Debug\Propert_Utility.csproj.CoreCompileInputs.cache
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\Propert_Utility\obj\Debug\Propert_Utility.dll
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\Propert_Utility\obj\Debug\Propert_Utility.pdb

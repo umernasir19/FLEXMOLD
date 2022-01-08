@@ -1,0 +1,4 @@
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\Propert_Utility\bin\Release\Propert_Utility.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\Propert_Utility\bin\Release\Propert_Utility.pdb
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\Propert_Utility\obj\Release\Propert_Utility.dll
+E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\Propert_Utility\obj\Release\Propert_Utility.pdb
