@@ -52,6 +52,13 @@ E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\obj\Debug
 E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\obj\Debug\FlexMold.application
 E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\obj\Debug\FlexMold.exe
 E:\Visual Studio Projects\FreeLance\ESPARK\METORFLEX\FlexMold\FlexMold\obj\Debug\FlexMold.pdb
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.csproj.AssemblyReference.cache
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.Forms.FrmDashboard.resources
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.Forms.FrmHome.resources
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.Forms.FrmSplashScreen.resources
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.Properties.Resources.resources
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.csproj.GenerateResource.cache
+C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.exe.licenses
 C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\FlexMold.exe.config
 C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\FlexMold.exe.manifest
 C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\FlexMold.application
@@ -62,28 +69,8 @@ C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main
 C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\MetroSet UI.dll
 C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\Propert_Utility.dll
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\DevExpress.Sparkline.v17.2.Core.dll
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\TelerikCommon.dll
 C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\BAL.pdb
 C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\Propert_Utility.pdb
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\DevExpress.XtraEditors.v17.2.xml
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\Telerik.WinControls.RadChart.xml
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\DevExpress.Sparkline.v17.2.Core.xml
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\de\DevExpress.XtraEditors.v17.2.resources.dll
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\es\DevExpress.XtraEditors.v17.2.resources.dll
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\ja\DevExpress.XtraEditors.v17.2.resources.dll
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\ru\DevExpress.XtraEditors.v17.2.resources.dll
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\de\DevExpress.Sparkline.v17.2.Core.resources.dll
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\es\DevExpress.Sparkline.v17.2.Core.resources.dll
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\ja\DevExpress.Sparkline.v17.2.Core.resources.dll
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\bin\Debug\ru\DevExpress.Sparkline.v17.2.Core.resources.dll
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.csproj.AssemblyReference.cache
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.Forms.FrmDashboard.resources
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.Forms.FrmHome.resources
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.Forms.FrmSplashScreen.resources
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.Properties.Resources.resources
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.csproj.GenerateResource.cache
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.exe.licenses
 C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.csproj.CoreCompileInputs.cache
 C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.exe.manifest
 C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\FlexMold\obj\Debug\FlexMold.application

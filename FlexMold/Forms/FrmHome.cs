@@ -22,6 +22,7 @@ namespace FlexMold.Forms
 {
     public partial class FrmHome : MetroSet_UI.Forms.MetroSetForm
     {
+        decimal MotorValue =0.00m;
         public FrmHome()
         {
             InitializeComponent();
@@ -33,7 +34,7 @@ namespace FlexMold.Forms
             //getting XML files where project/panel folders paths are saved
             XDocument xml = XDocument.Load(SystemConfig.XmlFilePath);
             //checking if project folder is defined or not
-            if (Utility.GetFilePath(xml).Length > 0)
+            if (Utility.GetFilePath(xml).Length > 0) 
             {
                 LoadParentFolder();
                 TbContrl.SelectedIndex = 1;
@@ -61,10 +62,19 @@ namespace FlexMold.Forms
         {
             XDocument xml= XDocument.Load(SystemConfig.XmlFilePath);
             string ParentFolder = Utility.GetFilePath(xml); //ConfigurationManager.AppSettings["ParentFolderPath"].ToString();
+            MotorValue = Utility.GetMotorLimit(xml);
+            if (MotorValue > -1)
+            {
+                nmrcmotorvalue.Value = Convert.ToDecimal(MotorValue);
+            }
+            else
+            {
+                nmrcmotorvalue.Value = 0.00m;
+            }
             txtfilepath.Text = ParentFolder;
             string[] folderslist = GetFolderList(ParentFolder);
             List<ComboBoxItems> lstcmxitm = new List<ComboBoxItems>();
-            
+
             for (int i = 0; i < folderslist.Length; i++)
             {
                 string foldername = folderslist[i].Substring(folderslist[i].LastIndexOf(@"\"));
@@ -172,6 +182,8 @@ namespace FlexMold.Forms
                 csvfilelist.Value = value;
                 csvfilegrd.Add(csvfilelist);
 
+             //   cmbcsvfiles.Items.Add(csvfilelist);
+
                 cmbcsvfiles.DataSource = csvfilegrd;
                 cmbcsvfiles.ValueMember = "Value";
                 cmbcsvfiles.DisplayMember = "Text";
@@ -209,12 +221,13 @@ namespace FlexMold.Forms
             try
             {
                 var lines = File.ReadAllLines(path).Select(a => a.Split(',')).ToList();
-                //var csv = from line in lines
-                //          select (from piece in line
-                //                  select piece);
+               
+
                 txtboxMaxValue.ForeColor = Color.White;
-                txtboxMaxValue.Text = lines[0].Min(car => car.ToString()); 
-                txtBoxMinValue.Text = lines[0].Max(car => car.ToString());
+                txtBoxMinValue.Text = lines[0].Min();
+                txtboxMaxValue.Text = lines[0].Max();
+
+             
             }
             catch(Exception ex)
             {
@@ -224,7 +237,41 @@ namespace FlexMold.Forms
         }
         private void btnsavevalue_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Saved");
+            decimal NewMotorValue =Convert.ToDecimal(txtboxnewvaue.Text.ToString());
+            if (NewMotorValue > MotorValue)
+            {
+                MessageBox.Show("Motor Value is Greater Than Max Motor Limit");
+            }
+            else
+            {
+                //New CSV File Will be created with calculation
+                // (Previous csv values*100)/New Motor Value
+
+                ComboBox cm = cmbcsvfiles;
+                ListBoxItems selectedvalue = (ListBoxItems)cm.SelectedItem;
+                if (selectedvalue != null)
+                {
+                    string CSVFilePath = selectedvalue.Value;
+                    var NewCSV = new StringBuilder();
+                    var lines = File.ReadAllLines(CSVFilePath).Select(a => a.Split(',')).ToList();
+
+                    for(int i = 0; i < lines[0].Length; i++)
+                    {
+                        var oldcsvvalue =Convert.ToDecimal(lines[0][i].ToString());
+                        var newcsvvalue = (oldcsvvalue * 100) / NewMotorValue;
+                        //Suggestion made by KyleMit
+                        var newLine = string.Format("{0}", newcsvvalue);
+                        NewCSV.AppendLine(newLine);
+                    }
+                   string newcsvfilename= Path.GetFileName(CSVFilePath)+"_FlexMold";
+                   string dir = Path.GetDirectoryName(CSVFilePath);
+                   string NewPath= Path.Combine(dir, newcsvfilename + ".csv");
+                    File.WriteAllText(NewPath, NewCSV.ToString());
+
+                }
+
+            }
+            //MessageBox.Show("Saved");
         }
 
         private void btnincrement_Click(object sender, EventArgs e)
@@ -322,7 +369,7 @@ namespace FlexMold.Forms
                 string Path = selectedvalue.Value;
                 if (Path.Length > 1)
                 {
-                    MessageBox.Show("Please Select File");
+                    MessageBox.Show("Laser File Executed");
                 }
             }
             else
@@ -353,6 +400,49 @@ namespace FlexMold.Forms
         }
 
         private void metroLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbcsvfiles_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ComboBox cm = cmbcsvfiles;
+            ListBoxItems selectedvalue = (ListBoxItems)cm.SelectedItem;
+            if (selectedvalue != null)
+            {
+                string Path = selectedvalue.Value;
+                ReadCSVFile(Path);
+            }
+            else
+            {
+                //MessageBox.Show("NO CSV Found");
+            }
+
+
+
+        }
+
+        private void btnmotorlimt_Click(object sender, EventArgs e)
+        {
+            decimal motorlimt =Convert.ToDecimal(nmrcmotorvalue.Value.ToString());
+            if (motorlimt > 0)
+            {
+               
+              bool flag=  Utility.SetMotorLimit(motorlimt, SystemConfig.XmlFilePath);
+                if (flag)
+                {
+                    MessageBox.Show("Motor Limit Updated");
+                }
+                else
+                {
+                    MessageBox.Show("Failed! Something Went Into Error");
+                }
+
+            }
+            
+        }
+
+        private void txtboxnewvaue_Click(object sender, EventArgs e)
         {
 
         }

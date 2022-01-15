@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series19 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series20 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title17 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.Title title18 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.Title title19 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.Title title20 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series16 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title13 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.Title title14 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.Title title15 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.Title title16 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.TbContrl = new MetroSet_UI.Controls.MetroSetTabControl();
             this.tbhome = new MetroSet_UI.Child.MetroSetSetTabPage();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.metroSetTile1 = new MetroSet_UI.Controls.MetroSetTile();
             this.tbProject = new MetroSet_UI.Child.MetroSetSetTabPage();
             this.tabllayoutmain = new System.Windows.Forms.TableLayoutPanel();
-            this.btncsvfile = new MetroSet_UI.Controls.MetroSetButton();
+            this.btnexecutecsv = new MetroSet_UI.Controls.MetroSetButton();
             this.Parent = new System.Windows.Forms.GroupBox();
             this.cmbparentfolder = new MetroSet_UI.Controls.MetroSetComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -54,10 +54,14 @@
             this.grpboxcsvFiles = new System.Windows.Forms.GroupBox();
             this.cmbcsvfiles = new MetroSet_UI.Controls.MetroSetComboBox();
             this.btnexecutelasfile = new MetroSet_UI.Controls.MetroSetButton();
+            this.tbllayoutinneruser = new System.Windows.Forms.TableLayoutPanel();
+            this.btnsavecsv = new MetroSet_UI.Controls.MetroSetButton();
+            this.btnincrement = new MetroSet_UI.Controls.MetroSetButton();
+            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
             this.txtboxnewvaue = new MetroSet_UI.Controls.MetroSetTextBox();
-            this.txtBoxMinValue = new MetroSet_UI.Controls.MetroSetTextBox();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.txtboxMaxValue = new MetroSet_UI.Controls.MetroSetTextBox();
+            this.txtBoxMinValue = new MetroSet_UI.Controls.MetroSetTextBox();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.metroSetSetTabPage1 = new MetroSet_UI.Child.MetroSetSetTabPage();
             this.metroSetPanel4 = new MetroSet_UI.Controls.MetroSetPanel();
@@ -67,12 +71,12 @@
             this.metroSetLabel1 = new MetroSet_UI.Controls.MetroSetLabel();
             this.txtfilepath = new MetroSet_UI.Controls.MetroSetTextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tbllayoutpanelsysinfo = new System.Windows.Forms.TableLayoutPanel();
+            this.metroSetLabel2 = new MetroSet_UI.Controls.MetroSetLabel();
+            this.btnmotorlimt = new MetroSet_UI.Controls.MetroSetButton();
+            this.nmrcmotorvalue = new System.Windows.Forms.NumericUpDown();
             this.metroSetSetTabPage2 = new MetroSet_UI.Child.MetroSetSetTabPage();
             this.metroSetControlBox1 = new MetroSet_UI.Controls.MetroSetControlBox();
-            this.tbllayoutinneruser = new System.Windows.Forms.TableLayoutPanel();
-            this.metroLabel4 = new MetroFramework.Controls.MetroLabel();
-            this.btnincrement = new MetroSet_UI.Controls.MetroSetButton();
-            this.btnsavecsv = new MetroSet_UI.Controls.MetroSetButton();
             this.TbContrl.SuspendLayout();
             this.tbhome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -82,11 +86,14 @@
             this.groupBox1.SuspendLayout();
             this.grpboxlaserfiles.SuspendLayout();
             this.grpboxcsvFiles.SuspendLayout();
+            this.tbllayoutinneruser.SuspendLayout();
             this.metroSetSetTabPage1.SuspendLayout();
             this.metroSetPanel4.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tbllayoutinneruser.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tbllayoutpanelsysinfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nmrcmotorvalue)).BeginInit();
             this.SuspendLayout();
             // 
             // TbContrl
@@ -141,41 +148,41 @@
             // 
             // chart1
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea5);
+            chartArea4.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea4);
             this.chart1.Dock = System.Windows.Forms.DockStyle.Top;
-            legend5.Name = "Legend1";
-            this.chart1.Legends.Add(legend5);
+            legend4.Name = "Legend1";
+            this.chart1.Legends.Add(legend4);
             this.chart1.Location = new System.Drawing.Point(0, 46);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
-            series17.ChartArea = "ChartArea1";
-            series17.Legend = "Legend1";
-            series17.Name = "Motor";
-            series18.ChartArea = "ChartArea1";
-            series18.Legend = "Legend1";
-            series18.Name = "Laser";
-            series19.ChartArea = "ChartArea1";
-            series19.Legend = "Legend1";
-            series19.Name = "Error";
-            series20.ChartArea = "ChartArea1";
-            series20.Legend = "Legend1";
-            series20.Name = "Rotation";
-            this.chart1.Series.Add(series17);
-            this.chart1.Series.Add(series18);
-            this.chart1.Series.Add(series19);
-            this.chart1.Series.Add(series20);
+            series13.ChartArea = "ChartArea1";
+            series13.Legend = "Legend1";
+            series13.Name = "Motor";
+            series14.ChartArea = "ChartArea1";
+            series14.Legend = "Legend1";
+            series14.Name = "Laser";
+            series15.ChartArea = "ChartArea1";
+            series15.Legend = "Legend1";
+            series15.Name = "Error";
+            series16.ChartArea = "ChartArea1";
+            series16.Legend = "Legend1";
+            series16.Name = "Rotation";
+            this.chart1.Series.Add(series13);
+            this.chart1.Series.Add(series14);
+            this.chart1.Series.Add(series15);
+            this.chart1.Series.Add(series16);
             this.chart1.Size = new System.Drawing.Size(827, 341);
             this.chart1.TabIndex = 1;
             this.chart1.Text = "chart";
-            title17.Name = "Motor Info";
-            title18.Name = "Machine Info";
-            title19.Name = "Timer";
-            title20.Name = "Cycles";
-            this.chart1.Titles.Add(title17);
-            this.chart1.Titles.Add(title18);
-            this.chart1.Titles.Add(title19);
-            this.chart1.Titles.Add(title20);
+            title13.Name = "Motor Info";
+            title14.Name = "Machine Info";
+            title15.Name = "Timer";
+            title16.Name = "Cycles";
+            this.chart1.Titles.Add(title13);
+            this.chart1.Titles.Add(title14);
+            this.chart1.Titles.Add(title15);
+            this.chart1.Titles.Add(title16);
             // 
             // metroSetTile1
             // 
@@ -229,7 +236,7 @@
             this.tabllayoutmain.ColumnCount = 2;
             this.tabllayoutmain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.18138F));
             this.tabllayoutmain.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.81862F));
-            this.tabllayoutmain.Controls.Add(this.btncsvfile, 1, 2);
+            this.tabllayoutmain.Controls.Add(this.btnexecutecsv, 1, 2);
             this.tabllayoutmain.Controls.Add(this.Parent, 0, 0);
             this.tabllayoutmain.Controls.Add(this.groupBox1, 1, 0);
             this.tabllayoutmain.Controls.Add(this.grpboxlaserfiles, 0, 1);
@@ -247,33 +254,33 @@
             this.tabllayoutmain.Size = new System.Drawing.Size(827, 473);
             this.tabllayoutmain.TabIndex = 3;
             // 
-            // btncsvfile
+            // btnexecutecsv
             // 
-            this.btncsvfile.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.btncsvfile.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.btncsvfile.DisabledForeColor = System.Drawing.Color.Gray;
-            this.btncsvfile.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btncsvfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btncsvfile.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.btncsvfile.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.btncsvfile.HoverTextColor = System.Drawing.Color.White;
-            this.btncsvfile.IsDerivedStyle = true;
-            this.btncsvfile.Location = new System.Drawing.Point(418, 230);
-            this.btncsvfile.Name = "btncsvfile";
-            this.btncsvfile.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.btncsvfile.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.btncsvfile.NormalTextColor = System.Drawing.Color.White;
-            this.btncsvfile.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.btncsvfile.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.btncsvfile.PressTextColor = System.Drawing.Color.White;
-            this.btncsvfile.Size = new System.Drawing.Size(406, 48);
-            this.btncsvfile.Style = MetroSet_UI.Enums.Style.Light;
-            this.btncsvfile.StyleManager = null;
-            this.btncsvfile.TabIndex = 5;
-            this.btncsvfile.Text = "Get Info From Csv File";
-            this.btncsvfile.ThemeAuthor = "Narwin";
-            this.btncsvfile.ThemeName = "MetroLite";
-            this.btncsvfile.Click += new System.EventHandler(this.btncsvfile_Click);
+            this.btnexecutecsv.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnexecutecsv.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnexecutecsv.DisabledForeColor = System.Drawing.Color.Gray;
+            this.btnexecutecsv.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnexecutecsv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnexecutecsv.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnexecutecsv.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnexecutecsv.HoverTextColor = System.Drawing.Color.White;
+            this.btnexecutecsv.IsDerivedStyle = true;
+            this.btnexecutecsv.Location = new System.Drawing.Point(418, 230);
+            this.btnexecutecsv.Name = "btnexecutecsv";
+            this.btnexecutecsv.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnexecutecsv.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnexecutecsv.NormalTextColor = System.Drawing.Color.White;
+            this.btnexecutecsv.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnexecutecsv.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnexecutecsv.PressTextColor = System.Drawing.Color.White;
+            this.btnexecutecsv.Size = new System.Drawing.Size(406, 48);
+            this.btnexecutecsv.Style = MetroSet_UI.Enums.Style.Light;
+            this.btnexecutecsv.StyleManager = null;
+            this.btnexecutecsv.TabIndex = 5;
+            this.btnexecutecsv.Text = "Execute CSV File";
+            this.btnexecutecsv.ThemeAuthor = "Narwin";
+            this.btnexecutecsv.ThemeName = "MetroLite";
+            this.btnexecutecsv.Click += new System.EventHandler(this.btncsvfile_Click);
             // 
             // Parent
             // 
@@ -438,6 +445,7 @@
             this.cmbcsvfiles.TabIndex = 1;
             this.cmbcsvfiles.ThemeAuthor = "Narwin";
             this.cmbcsvfiles.ThemeName = "MetroLite";
+            this.cmbcsvfiles.SelectedIndexChanged += new System.EventHandler(this.cmbcsvfiles_SelectedIndexChanged);
             // 
             // btnexecutelasfile
             // 
@@ -467,18 +475,111 @@
             this.btnexecutelasfile.ThemeName = "MetroLite";
             this.btnexecutelasfile.Click += new System.EventHandler(this.btnexecutelasfile_Click);
             // 
+            // tbllayoutinneruser
+            // 
+            this.tbllayoutinneruser.ColumnCount = 2;
+            this.tbllayoutinneruser.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 44.00978F));
+            this.tbllayoutinneruser.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 55.99022F));
+            this.tbllayoutinneruser.Controls.Add(this.btnsavecsv, 1, 3);
+            this.tbllayoutinneruser.Controls.Add(this.btnincrement, 0, 3);
+            this.tbllayoutinneruser.Controls.Add(this.metroLabel4, 0, 2);
+            this.tbllayoutinneruser.Controls.Add(this.txtboxnewvaue, 1, 2);
+            this.tbllayoutinneruser.Controls.Add(this.metroLabel3, 0, 0);
+            this.tbllayoutinneruser.Controls.Add(this.txtboxMaxValue, 1, 0);
+            this.tbllayoutinneruser.Controls.Add(this.txtBoxMinValue, 1, 1);
+            this.tbllayoutinneruser.Controls.Add(this.metroLabel2, 0, 1);
+            this.tbllayoutinneruser.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbllayoutinneruser.Location = new System.Drawing.Point(3, 284);
+            this.tbllayoutinneruser.Name = "tbllayoutinneruser";
+            this.tbllayoutinneruser.RowCount = 5;
+            this.tbllayoutinneruser.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.16729F));
+            this.tbllayoutinneruser.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.44702F));
+            this.tbllayoutinneruser.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.16914F));
+            this.tbllayoutinneruser.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.21654F));
+            this.tbllayoutinneruser.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
+            this.tbllayoutinneruser.Size = new System.Drawing.Size(409, 186);
+            this.tbllayoutinneruser.TabIndex = 6;
+            // 
+            // btnsavecsv
+            // 
+            this.btnsavecsv.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnsavecsv.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnsavecsv.DisabledForeColor = System.Drawing.Color.Gray;
+            this.btnsavecsv.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnsavecsv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnsavecsv.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnsavecsv.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnsavecsv.HoverTextColor = System.Drawing.Color.White;
+            this.btnsavecsv.IsDerivedStyle = true;
+            this.btnsavecsv.Location = new System.Drawing.Point(183, 92);
+            this.btnsavecsv.Name = "btnsavecsv";
+            this.btnsavecsv.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnsavecsv.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnsavecsv.NormalTextColor = System.Drawing.Color.White;
+            this.btnsavecsv.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnsavecsv.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnsavecsv.PressTextColor = System.Drawing.Color.White;
+            this.btnsavecsv.Size = new System.Drawing.Size(223, 60);
+            this.btnsavecsv.Style = MetroSet_UI.Enums.Style.Light;
+            this.btnsavecsv.StyleManager = null;
+            this.btnsavecsv.TabIndex = 11;
+            this.btnsavecsv.Text = "Save To CSV";
+            this.btnsavecsv.ThemeAuthor = "Narwin";
+            this.btnsavecsv.ThemeName = "MetroLite";
+            this.btnsavecsv.Click += new System.EventHandler(this.btnsavevalue_Click);
+            // 
+            // btnincrement
+            // 
+            this.btnincrement.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnincrement.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnincrement.DisabledForeColor = System.Drawing.Color.Gray;
+            this.btnincrement.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnincrement.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnincrement.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnincrement.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnincrement.HoverTextColor = System.Drawing.Color.White;
+            this.btnincrement.IsDerivedStyle = true;
+            this.btnincrement.Location = new System.Drawing.Point(3, 92);
+            this.btnincrement.Name = "btnincrement";
+            this.btnincrement.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnincrement.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnincrement.NormalTextColor = System.Drawing.Color.White;
+            this.btnincrement.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnincrement.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnincrement.PressTextColor = System.Drawing.Color.White;
+            this.btnincrement.Size = new System.Drawing.Size(174, 60);
+            this.btnincrement.Style = MetroSet_UI.Enums.Style.Light;
+            this.btnincrement.StyleManager = null;
+            this.btnincrement.TabIndex = 10;
+            this.btnincrement.Text = "CLick To Increase Percentage";
+            this.btnincrement.ThemeAuthor = "Narwin";
+            this.btnincrement.ThemeName = "MetroLite";
+            this.btnincrement.Click += new System.EventHandler(this.btnincrement_Click);
+            // 
+            // metroLabel4
+            // 
+            this.metroLabel4.AutoSize = true;
+            this.metroLabel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.metroLabel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.metroLabel4.Location = new System.Drawing.Point(3, 61);
+            this.metroLabel4.Name = "metroLabel4";
+            this.metroLabel4.Size = new System.Drawing.Size(174, 28);
+            this.metroLabel4.TabIndex = 9;
+            this.metroLabel4.Text = "New Motor Value";
+            this.metroLabel4.Theme = MetroFramework.MetroThemeStyle.Light;
+            // 
             // txtboxnewvaue
             // 
             this.txtboxnewvaue.AutoCompleteCustomSource = null;
             this.txtboxnewvaue.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
             this.txtboxnewvaue.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txtboxnewvaue.BorderColor = System.Drawing.Color.Black;
+            this.txtboxnewvaue.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
             this.txtboxnewvaue.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.txtboxnewvaue.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
             this.txtboxnewvaue.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
             this.txtboxnewvaue.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtboxnewvaue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtboxnewvaue.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.txtboxnewvaue.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             this.txtboxnewvaue.Image = null;
             this.txtboxnewvaue.IsDerivedStyle = true;
             this.txtboxnewvaue.Lines = null;
@@ -496,37 +597,7 @@
             this.txtboxnewvaue.ThemeName = "MetroLite";
             this.txtboxnewvaue.UseSystemPasswordChar = false;
             this.txtboxnewvaue.WatermarkText = "";
-            // 
-            // txtBoxMinValue
-            // 
-            this.txtBoxMinValue.AutoCompleteCustomSource = null;
-            this.txtBoxMinValue.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.txtBoxMinValue.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.txtBoxMinValue.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
-            this.txtBoxMinValue.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.txtBoxMinValue.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
-            this.txtBoxMinValue.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            this.txtBoxMinValue.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtBoxMinValue.Enabled = false;
-            this.txtBoxMinValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.txtBoxMinValue.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
-            this.txtBoxMinValue.Image = null;
-            this.txtBoxMinValue.IsDerivedStyle = true;
-            this.txtBoxMinValue.Lines = null;
-            this.txtBoxMinValue.Location = new System.Drawing.Point(183, 34);
-            this.txtBoxMinValue.MaxLength = 32767;
-            this.txtBoxMinValue.Multiline = false;
-            this.txtBoxMinValue.Name = "txtBoxMinValue";
-            this.txtBoxMinValue.ReadOnly = false;
-            this.txtBoxMinValue.Size = new System.Drawing.Size(223, 24);
-            this.txtBoxMinValue.Style = MetroSet_UI.Enums.Style.Light;
-            this.txtBoxMinValue.StyleManager = null;
-            this.txtBoxMinValue.TabIndex = 7;
-            this.txtBoxMinValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtBoxMinValue.ThemeAuthor = "Narwin";
-            this.txtBoxMinValue.ThemeName = "MetroLite";
-            this.txtBoxMinValue.UseSystemPasswordChar = false;
-            this.txtBoxMinValue.WatermarkText = "";
+            this.txtboxnewvaue.Click += new System.EventHandler(this.txtboxnewvaue_Click);
             // 
             // metroLabel3
             // 
@@ -570,6 +641,37 @@
             this.txtboxMaxValue.ThemeName = "MetroLite";
             this.txtboxMaxValue.UseSystemPasswordChar = false;
             this.txtboxMaxValue.WatermarkText = "";
+            // 
+            // txtBoxMinValue
+            // 
+            this.txtBoxMinValue.AutoCompleteCustomSource = null;
+            this.txtBoxMinValue.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.txtBoxMinValue.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.txtBoxMinValue.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
+            this.txtBoxMinValue.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.txtBoxMinValue.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
+            this.txtBoxMinValue.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            this.txtBoxMinValue.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtBoxMinValue.Enabled = false;
+            this.txtBoxMinValue.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.txtBoxMinValue.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.txtBoxMinValue.Image = null;
+            this.txtBoxMinValue.IsDerivedStyle = true;
+            this.txtBoxMinValue.Lines = null;
+            this.txtBoxMinValue.Location = new System.Drawing.Point(183, 34);
+            this.txtBoxMinValue.MaxLength = 32767;
+            this.txtBoxMinValue.Multiline = false;
+            this.txtBoxMinValue.Name = "txtBoxMinValue";
+            this.txtBoxMinValue.ReadOnly = false;
+            this.txtBoxMinValue.Size = new System.Drawing.Size(223, 24);
+            this.txtBoxMinValue.Style = MetroSet_UI.Enums.Style.Light;
+            this.txtBoxMinValue.StyleManager = null;
+            this.txtBoxMinValue.TabIndex = 7;
+            this.txtBoxMinValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtBoxMinValue.ThemeAuthor = "Narwin";
+            this.txtBoxMinValue.ThemeName = "MetroLite";
+            this.txtBoxMinValue.UseSystemPasswordChar = false;
+            this.txtBoxMinValue.WatermarkText = "";
             // 
             // metroLabel2
             // 
@@ -719,6 +821,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.tbllayoutpanelsysinfo);
             this.tabPage2.Location = new System.Drawing.Point(25, 4);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -726,6 +829,82 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "System Info";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tbllayoutpanelsysinfo
+            // 
+            this.tbllayoutpanelsysinfo.ColumnCount = 2;
+            this.tbllayoutpanelsysinfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.08586F));
+            this.tbllayoutpanelsysinfo.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.91414F));
+            this.tbllayoutpanelsysinfo.Controls.Add(this.metroSetLabel2, 0, 0);
+            this.tbllayoutpanelsysinfo.Controls.Add(this.btnmotorlimt, 1, 1);
+            this.tbllayoutpanelsysinfo.Controls.Add(this.nmrcmotorvalue, 0, 1);
+            this.tbllayoutpanelsysinfo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbllayoutpanelsysinfo.GrowStyle = System.Windows.Forms.TableLayoutPanelGrowStyle.FixedSize;
+            this.tbllayoutpanelsysinfo.Location = new System.Drawing.Point(3, 3);
+            this.tbllayoutpanelsysinfo.Name = "tbllayoutpanelsysinfo";
+            this.tbllayoutpanelsysinfo.RowCount = 3;
+            this.tbllayoutpanelsysinfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 47.27273F));
+            this.tbllayoutpanelsysinfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 52.72727F));
+            this.tbllayoutpanelsysinfo.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 378F));
+            this.tbllayoutpanelsysinfo.Size = new System.Drawing.Size(792, 459);
+            this.tbllayoutpanelsysinfo.TabIndex = 0;
+            // 
+            // metroSetLabel2
+            // 
+            this.metroSetLabel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.metroSetLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.metroSetLabel2.IsDerivedStyle = true;
+            this.metroSetLabel2.Location = new System.Drawing.Point(3, 0);
+            this.metroSetLabel2.Name = "metroSetLabel2";
+            this.metroSetLabel2.Size = new System.Drawing.Size(359, 38);
+            this.metroSetLabel2.Style = MetroSet_UI.Enums.Style.Light;
+            this.metroSetLabel2.StyleManager = null;
+            this.metroSetLabel2.TabIndex = 1;
+            this.metroSetLabel2.Text = "Motor Limit";
+            this.metroSetLabel2.ThemeAuthor = "Narwin";
+            this.metroSetLabel2.ThemeName = "MetroLite";
+            // 
+            // btnmotorlimt
+            // 
+            this.btnmotorlimt.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnmotorlimt.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnmotorlimt.DisabledForeColor = System.Drawing.Color.Gray;
+            this.btnmotorlimt.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.btnmotorlimt.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnmotorlimt.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.btnmotorlimt.HoverTextColor = System.Drawing.Color.White;
+            this.btnmotorlimt.IsDerivedStyle = true;
+            this.btnmotorlimt.Location = new System.Drawing.Point(368, 41);
+            this.btnmotorlimt.Name = "btnmotorlimt";
+            this.btnmotorlimt.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnmotorlimt.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.btnmotorlimt.NormalTextColor = System.Drawing.Color.White;
+            this.btnmotorlimt.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnmotorlimt.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.btnmotorlimt.PressTextColor = System.Drawing.Color.White;
+            this.btnmotorlimt.Size = new System.Drawing.Size(131, 23);
+            this.btnmotorlimt.Style = MetroSet_UI.Enums.Style.Light;
+            this.btnmotorlimt.StyleManager = null;
+            this.btnmotorlimt.TabIndex = 3;
+            this.btnmotorlimt.Text = "Save";
+            this.btnmotorlimt.ThemeAuthor = "Narwin";
+            this.btnmotorlimt.ThemeName = "MetroLite";
+            this.btnmotorlimt.Click += new System.EventHandler(this.btnmotorlimt_Click);
+            // 
+            // nmrcmotorvalue
+            // 
+            this.nmrcmotorvalue.DecimalPlaces = 2;
+            this.nmrcmotorvalue.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.nmrcmotorvalue.Location = new System.Drawing.Point(3, 41);
+            this.nmrcmotorvalue.Maximum = new decimal(new int[] {
+            -469762048,
+            -590869294,
+            5421010,
+            0});
+            this.nmrcmotorvalue.Name = "nmrcmotorvalue";
+            this.nmrcmotorvalue.Size = new System.Drawing.Size(359, 23);
+            this.nmrcmotorvalue.TabIndex = 4;
+            this.nmrcmotorvalue.ThousandsSeparator = true;
             // 
             // metroSetSetTabPage2
             // 
@@ -771,99 +950,6 @@
             this.metroSetControlBox1.ThemeAuthor = "Narwin";
             this.metroSetControlBox1.ThemeName = "MetroDark";
             // 
-            // tbllayoutinneruser
-            // 
-            this.tbllayoutinneruser.ColumnCount = 2;
-            this.tbllayoutinneruser.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 44.00978F));
-            this.tbllayoutinneruser.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 55.99022F));
-            this.tbllayoutinneruser.Controls.Add(this.btnsavecsv, 1, 3);
-            this.tbllayoutinneruser.Controls.Add(this.btnincrement, 0, 3);
-            this.tbllayoutinneruser.Controls.Add(this.metroLabel4, 0, 2);
-            this.tbllayoutinneruser.Controls.Add(this.txtboxnewvaue, 1, 2);
-            this.tbllayoutinneruser.Controls.Add(this.metroLabel3, 0, 0);
-            this.tbllayoutinneruser.Controls.Add(this.txtboxMaxValue, 1, 0);
-            this.tbllayoutinneruser.Controls.Add(this.txtBoxMinValue, 1, 1);
-            this.tbllayoutinneruser.Controls.Add(this.metroLabel2, 0, 1);
-            this.tbllayoutinneruser.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbllayoutinneruser.Location = new System.Drawing.Point(3, 284);
-            this.tbllayoutinneruser.Name = "tbllayoutinneruser";
-            this.tbllayoutinneruser.RowCount = 5;
-            this.tbllayoutinneruser.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.16729F));
-            this.tbllayoutinneruser.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 19.44702F));
-            this.tbllayoutinneruser.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.16914F));
-            this.tbllayoutinneruser.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.21654F));
-            this.tbllayoutinneruser.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
-            this.tbllayoutinneruser.Size = new System.Drawing.Size(409, 186);
-            this.tbllayoutinneruser.TabIndex = 6;
-            // 
-            // metroLabel4
-            // 
-            this.metroLabel4.AutoSize = true;
-            this.metroLabel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.metroLabel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.metroLabel4.Location = new System.Drawing.Point(3, 61);
-            this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(174, 28);
-            this.metroLabel4.TabIndex = 9;
-            this.metroLabel4.Text = "New Motor Value";
-            this.metroLabel4.Theme = MetroFramework.MetroThemeStyle.Light;
-            // 
-            // btnincrement
-            // 
-            this.btnincrement.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.btnincrement.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.btnincrement.DisabledForeColor = System.Drawing.Color.Gray;
-            this.btnincrement.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnincrement.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnincrement.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.btnincrement.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.btnincrement.HoverTextColor = System.Drawing.Color.White;
-            this.btnincrement.IsDerivedStyle = true;
-            this.btnincrement.Location = new System.Drawing.Point(3, 92);
-            this.btnincrement.Name = "btnincrement";
-            this.btnincrement.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.btnincrement.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.btnincrement.NormalTextColor = System.Drawing.Color.White;
-            this.btnincrement.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.btnincrement.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.btnincrement.PressTextColor = System.Drawing.Color.White;
-            this.btnincrement.Size = new System.Drawing.Size(174, 60);
-            this.btnincrement.Style = MetroSet_UI.Enums.Style.Light;
-            this.btnincrement.StyleManager = null;
-            this.btnincrement.TabIndex = 10;
-            this.btnincrement.Text = "CLick To Increase Percentage";
-            this.btnincrement.ThemeAuthor = "Narwin";
-            this.btnincrement.ThemeName = "MetroLite";
-            this.btnincrement.Click += new System.EventHandler(this.btnincrement_Click);
-            // 
-            // btnsavecsv
-            // 
-            this.btnsavecsv.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.btnsavecsv.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.btnsavecsv.DisabledForeColor = System.Drawing.Color.Gray;
-            this.btnsavecsv.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnsavecsv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.btnsavecsv.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.btnsavecsv.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
-            this.btnsavecsv.HoverTextColor = System.Drawing.Color.White;
-            this.btnsavecsv.IsDerivedStyle = true;
-            this.btnsavecsv.Location = new System.Drawing.Point(183, 92);
-            this.btnsavecsv.Name = "btnsavecsv";
-            this.btnsavecsv.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.btnsavecsv.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.btnsavecsv.NormalTextColor = System.Drawing.Color.White;
-            this.btnsavecsv.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.btnsavecsv.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
-            this.btnsavecsv.PressTextColor = System.Drawing.Color.White;
-            this.btnsavecsv.Size = new System.Drawing.Size(223, 60);
-            this.btnsavecsv.Style = MetroSet_UI.Enums.Style.Light;
-            this.btnsavecsv.StyleManager = null;
-            this.btnsavecsv.TabIndex = 11;
-            this.btnsavecsv.Text = "Save To CSV";
-            this.btnsavecsv.ThemeAuthor = "Narwin";
-            this.btnsavecsv.ThemeName = "MetroLite";
-            this.btnsavecsv.Click += new System.EventHandler(this.btnsavevalue_Click);
-            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
@@ -885,12 +971,15 @@
             this.groupBox1.ResumeLayout(false);
             this.grpboxlaserfiles.ResumeLayout(false);
             this.grpboxcsvFiles.ResumeLayout(false);
+            this.tbllayoutinneruser.ResumeLayout(false);
+            this.tbllayoutinneruser.PerformLayout();
             this.metroSetSetTabPage1.ResumeLayout(false);
             this.metroSetPanel4.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tbllayoutinneruser.ResumeLayout(false);
-            this.tbllayoutinneruser.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tbllayoutpanelsysinfo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.nmrcmotorvalue)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -923,7 +1012,7 @@
         private System.Windows.Forms.GroupBox grpboxlaserfiles;
         private MetroSet_UI.Controls.MetroSetComboBox cmlaserfiles;
         private MetroSet_UI.Controls.MetroSetButton btnexecutelasfile;
-        private MetroSet_UI.Controls.MetroSetButton btncsvfile;
+        private MetroSet_UI.Controls.MetroSetButton btnexecutecsv;
         private System.Windows.Forms.GroupBox groupBox1;
         private MetroSet_UI.Controls.MetroSetComboBox cmbpanel;
         private System.Windows.Forms.GroupBox grpboxcsvFiles;
@@ -932,6 +1021,10 @@
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroSet_UI.Controls.MetroSetButton btnsavecsv;
         private MetroSet_UI.Controls.MetroSetButton btnincrement;
+        private System.Windows.Forms.TableLayoutPanel tbllayoutpanelsysinfo;
+        private MetroSet_UI.Controls.MetroSetLabel metroSetLabel2;
+        private MetroSet_UI.Controls.MetroSetButton btnmotorlimt;
+        private System.Windows.Forms.NumericUpDown nmrcmotorvalue;
         // private Telerik.WinControls.UI.RadGridView radGridView1;
     }
 }

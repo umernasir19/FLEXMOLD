@@ -10,7 +10,7 @@ using System.Xml.XPath;
 
 namespace Propert_Utility.Utilities
 {
-   public static class Utility
+    public static class Utility
     {
         public static string GetFilePath(XDocument xml)
         {
@@ -35,26 +35,26 @@ namespace Propert_Utility.Utilities
                             }
                         }
                         //matching user name with xml users 
-                       
+
 
                     }
                 }
-                    return "";
+                return "";
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return "";
             }
         }
 
-        public static bool SetFilePath(string newpath,string xmlpath)
+        public static bool SetFilePath(string newpath, string xmlpath)
         {
             try
             {
 
                 var doc = XElement.Load(xmlpath);
                 XElement upd = (from games in doc.Descendants("FolderPath")
-                                
+
                                 select games).Single();
 
                 // saveGame.Element("balance").Value = "50";
@@ -84,5 +84,63 @@ namespace Propert_Utility.Utilities
             }
         }
 
+        public static bool SetMotorLimit(decimal limitvalue, string xmlPath)
+        {
+            try
+            {
+
+                var doc = XElement.Load(xmlPath);
+                XElement upd = (from MotorLimit in doc.Descendants("MotorLimit")
+
+                                select MotorLimit).Single();
+
+                // saveGame.Element("balance").Value = "50";
+
+                //   doc.Save(xmlpath);
+
+                upd.Element("Limit").Value = limitvalue.ToString();
+                doc.Save(xmlPath);
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public static decimal GetMotorLimit(XDocument xml)
+        {
+            try
+            {
+                foreach (var MotorLimit in xml.Descendants("MotorLimit"))
+                {
+                    //second loop for child 
+                    foreach (var Limit in MotorLimit.Descendants("Limit"))
+                    {
+                        //getting values from node
+                        var motorvalue = Limit.Value.Trim();
+                        
+                        // .Element("name").Value.ToString();
+                        if (motorvalue.Length> 0)
+                        {
+                            decimal MaxMotorLimit = Convert.ToDecimal(motorvalue);
+                            return MaxMotorLimit;
+                        }
+                        else
+                        {
+                            return -1;
+                        }
+                        //matching user name with xml users 
+
+
+                    }
+                }
+                return -1;
+            }
+            catch (Exception ex)
+            {
+                return -1;
+            }
+        }
     }
 }

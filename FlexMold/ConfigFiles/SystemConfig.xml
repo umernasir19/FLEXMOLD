@@ -4,5 +4,8 @@
     <FolderPath>
       <path>C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\TEST</path>
     </FolderPath>
+    <MotorLimit>
+      <Limit>100.1</Limit>
+    </MotorLimit>
   </systemSetting>
 </Config>
