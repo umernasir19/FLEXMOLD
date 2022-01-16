@@ -157,21 +157,22 @@ namespace FlexMold.Forms
                 objlstboxitem.Value = value;
                 listboxitm.Add(objlstboxitem);
 
-                cmlaserfiles.DataSource = listboxitm;
-                cmlaserfiles.ValueMember = "Value";
-                cmlaserfiles.DisplayMember = "Text";
+                
 
 
             }
-           
 
+            cmlaserfiles.DataSource = listboxitm;
+            cmlaserfiles.ValueMember = "Value";
+            cmlaserfiles.DisplayMember = "Text";
             //CSVFILELOADING
 
 
             string[] CSVFILES = Directory.GetFiles(filespath.Value, "*.csv");
             //listLaserFiles.Items.Clear();
             List<ListBoxItems> csvfilegrd = new List<ListBoxItems>();
-           
+
+           // Dictionary<string, string> comboSource = new Dictionary<string, string>();
             for (int i = 0; i < CSVFILES.Length; i++)
             {
                 string FileName = CSVFILES[i].Substring(CSVFILES[i].LastIndexOf(@"\"));
@@ -182,14 +183,17 @@ namespace FlexMold.Forms
                 csvfilelist.Value = value;
                 csvfilegrd.Add(csvfilelist);
 
-             //   cmbcsvfiles.Items.Add(csvfilelist);
+             //   csvfilegrd
+             //   comboSource.Add(value, text);
+               // comboSource.Add("2", "Monday");
+                //cmbcsvfiles.Items.Add(csvfilelist);
 
-                cmbcsvfiles.DataSource = csvfilegrd;
-                cmbcsvfiles.ValueMember = "Value";
-                cmbcsvfiles.DisplayMember = "Text";
+               
             }
-
-           // dgvcsvfiles.DataSource = csvfilegrd;
+            cmbcsvfiles.DataSource = new BindingSource(csvfilegrd, null);
+            cmbcsvfiles.ValueMember = "Value";
+            cmbcsvfiles.DisplayMember = "Text";
+            // dgvcsvfiles.DataSource = csvfilegrd;
             if (csvfilegrd.Count > 0)
             {
             //    ReadCSVFile(csvfilegrd[0].Value);
@@ -252,21 +256,23 @@ namespace FlexMold.Forms
                 if (selectedvalue != null)
                 {
                     string CSVFilePath = selectedvalue.Value;
-                    var NewCSV = new StringBuilder();
+                    
                     var lines = File.ReadAllLines(CSVFilePath).Select(a => a.Split(',')).ToList();
-
-                    for(int i = 0; i < lines[0].Length; i++)
+                    IList<string> lstnewcsvvalues = new List<string>();
+                    string objNewCsvCompleteValues = "";
+                    for (int i = 0; i < lines[0].Length; i++)
                     {
                         var oldcsvvalue =Convert.ToDecimal(lines[0][i].ToString());
                         var newcsvvalue = (oldcsvvalue * 100) / NewMotorValue;
-                        //Suggestion made by KyleMit
-                        var newLine = string.Format("{0}", newcsvvalue);
-                        NewCSV.AppendLine(newLine);
+                        lstnewcsvvalues.Add(newcsvvalue.ToString());
+                         
+
                     }
-                   string newcsvfilename= Path.GetFileName(CSVFilePath)+"_FlexMold";
+                    objNewCsvCompleteValues = string.Join(",", lstnewcsvvalues);
+                    string newcsvfilename= Path.GetFileName(CSVFilePath)+"_FlexMold";
                    string dir = Path.GetDirectoryName(CSVFilePath);
                    string NewPath= Path.Combine(dir, newcsvfilename + ".csv");
-                    File.WriteAllText(NewPath, NewCSV.ToString());
+                    File.WriteAllText(NewPath, objNewCsvCompleteValues.ToString());
 
                 }
 
@@ -384,8 +390,9 @@ namespace FlexMold.Forms
             ListBoxItems selectedvalue = (ListBoxItems)cm.SelectedItem;
             if (selectedvalue!= null )
             {
-                string Path = selectedvalue.Value;
-                ReadCSVFile(Path);
+                //string Path = selectedvalue.Value;
+                //ReadCSVFile(Path);
+                MessageBox.Show("CSV Executed On Server");
             }
             else
             {

@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series13 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series14 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series15 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series16 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title13 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.Title title14 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.Title title15 = new System.Windows.Forms.DataVisualization.Charting.Title();
-            System.Windows.Forms.DataVisualization.Charting.Title title16 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series11 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series12 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title9 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.Title title10 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.Title title11 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.Title title12 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.TbContrl = new MetroSet_UI.Controls.MetroSetTabControl();
             this.tbhome = new MetroSet_UI.Child.MetroSetSetTabPage();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -52,7 +52,6 @@
             this.grpboxlaserfiles = new System.Windows.Forms.GroupBox();
             this.cmlaserfiles = new MetroSet_UI.Controls.MetroSetComboBox();
             this.grpboxcsvFiles = new System.Windows.Forms.GroupBox();
-            this.cmbcsvfiles = new MetroSet_UI.Controls.MetroSetComboBox();
             this.btnexecutelasfile = new MetroSet_UI.Controls.MetroSetButton();
             this.tbllayoutinneruser = new System.Windows.Forms.TableLayoutPanel();
             this.btnsavecsv = new MetroSet_UI.Controls.MetroSetButton();
@@ -77,6 +76,7 @@
             this.nmrcmotorvalue = new System.Windows.Forms.NumericUpDown();
             this.metroSetSetTabPage2 = new MetroSet_UI.Child.MetroSetSetTabPage();
             this.metroSetControlBox1 = new MetroSet_UI.Controls.MetroSetControlBox();
+            this.cmbcsvfiles = new MetroSet_UI.Controls.MetroSetComboBox();
             this.TbContrl.SuspendLayout();
             this.tbhome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
@@ -148,41 +148,41 @@
             // 
             // chart1
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea4);
+            chartArea3.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea3);
             this.chart1.Dock = System.Windows.Forms.DockStyle.Top;
-            legend4.Name = "Legend1";
-            this.chart1.Legends.Add(legend4);
+            legend3.Name = "Legend1";
+            this.chart1.Legends.Add(legend3);
             this.chart1.Location = new System.Drawing.Point(0, 46);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
-            series13.ChartArea = "ChartArea1";
-            series13.Legend = "Legend1";
-            series13.Name = "Motor";
-            series14.ChartArea = "ChartArea1";
-            series14.Legend = "Legend1";
-            series14.Name = "Laser";
-            series15.ChartArea = "ChartArea1";
-            series15.Legend = "Legend1";
-            series15.Name = "Error";
-            series16.ChartArea = "ChartArea1";
-            series16.Legend = "Legend1";
-            series16.Name = "Rotation";
-            this.chart1.Series.Add(series13);
-            this.chart1.Series.Add(series14);
-            this.chart1.Series.Add(series15);
-            this.chart1.Series.Add(series16);
+            series9.ChartArea = "ChartArea1";
+            series9.Legend = "Legend1";
+            series9.Name = "Motor";
+            series10.ChartArea = "ChartArea1";
+            series10.Legend = "Legend1";
+            series10.Name = "Laser";
+            series11.ChartArea = "ChartArea1";
+            series11.Legend = "Legend1";
+            series11.Name = "Error";
+            series12.ChartArea = "ChartArea1";
+            series12.Legend = "Legend1";
+            series12.Name = "Rotation";
+            this.chart1.Series.Add(series9);
+            this.chart1.Series.Add(series10);
+            this.chart1.Series.Add(series11);
+            this.chart1.Series.Add(series12);
             this.chart1.Size = new System.Drawing.Size(827, 341);
             this.chart1.TabIndex = 1;
             this.chart1.Text = "chart";
-            title13.Name = "Motor Info";
-            title14.Name = "Machine Info";
-            title15.Name = "Timer";
-            title16.Name = "Cycles";
-            this.chart1.Titles.Add(title13);
-            this.chart1.Titles.Add(title14);
-            this.chart1.Titles.Add(title15);
-            this.chart1.Titles.Add(title16);
+            title9.Name = "Motor Info";
+            title10.Name = "Machine Info";
+            title11.Name = "Timer";
+            title12.Name = "Cycles";
+            this.chart1.Titles.Add(title9);
+            this.chart1.Titles.Add(title10);
+            this.chart1.Titles.Add(title11);
+            this.chart1.Titles.Add(title12);
             // 
             // metroSetTile1
             // 
@@ -416,36 +416,6 @@
             this.grpboxcsvFiles.TabIndex = 3;
             this.grpboxcsvFiles.TabStop = false;
             this.grpboxcsvFiles.Text = "CSV FILES";
-            // 
-            // cmbcsvfiles
-            // 
-            this.cmbcsvfiles.AllowDrop = true;
-            this.cmbcsvfiles.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
-            this.cmbcsvfiles.BackColor = System.Drawing.Color.Transparent;
-            this.cmbcsvfiles.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.cmbcsvfiles.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
-            this.cmbcsvfiles.CausesValidation = false;
-            this.cmbcsvfiles.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.cmbcsvfiles.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
-            this.cmbcsvfiles.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
-            this.cmbcsvfiles.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.cmbcsvfiles.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbcsvfiles.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbcsvfiles.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
-            this.cmbcsvfiles.FormattingEnabled = true;
-            this.cmbcsvfiles.IsDerivedStyle = true;
-            this.cmbcsvfiles.ItemHeight = 50;
-            this.cmbcsvfiles.Location = new System.Drawing.Point(3, 19);
-            this.cmbcsvfiles.Name = "cmbcsvfiles";
-            this.cmbcsvfiles.SelectedItemBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
-            this.cmbcsvfiles.SelectedItemForeColor = System.Drawing.Color.White;
-            this.cmbcsvfiles.Size = new System.Drawing.Size(400, 56);
-            this.cmbcsvfiles.Style = MetroSet_UI.Enums.Style.Light;
-            this.cmbcsvfiles.StyleManager = null;
-            this.cmbcsvfiles.TabIndex = 1;
-            this.cmbcsvfiles.ThemeAuthor = "Narwin";
-            this.cmbcsvfiles.ThemeName = "MetroLite";
-            this.cmbcsvfiles.SelectedIndexChanged += new System.EventHandler(this.cmbcsvfiles_SelectedIndexChanged);
             // 
             // btnexecutelasfile
             // 
@@ -950,6 +920,36 @@
             this.metroSetControlBox1.ThemeAuthor = "Narwin";
             this.metroSetControlBox1.ThemeName = "MetroDark";
             // 
+            // cmbcsvfiles
+            // 
+            this.cmbcsvfiles.AllowDrop = true;
+            this.cmbcsvfiles.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
+            this.cmbcsvfiles.BackColor = System.Drawing.Color.Transparent;
+            this.cmbcsvfiles.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.cmbcsvfiles.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(150)))), ((int)(((byte)(150)))));
+            this.cmbcsvfiles.CausesValidation = false;
+            this.cmbcsvfiles.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.cmbcsvfiles.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
+            this.cmbcsvfiles.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            this.cmbcsvfiles.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cmbcsvfiles.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cmbcsvfiles.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbcsvfiles.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.cmbcsvfiles.FormattingEnabled = true;
+            this.cmbcsvfiles.IsDerivedStyle = true;
+            this.cmbcsvfiles.ItemHeight = 50;
+            this.cmbcsvfiles.Location = new System.Drawing.Point(3, 19);
+            this.cmbcsvfiles.Name = "cmbcsvfiles";
+            this.cmbcsvfiles.SelectedItemBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.cmbcsvfiles.SelectedItemForeColor = System.Drawing.Color.White;
+            this.cmbcsvfiles.Size = new System.Drawing.Size(400, 56);
+            this.cmbcsvfiles.Style = MetroSet_UI.Enums.Style.Light;
+            this.cmbcsvfiles.StyleManager = null;
+            this.cmbcsvfiles.TabIndex = 1;
+            this.cmbcsvfiles.ThemeAuthor = "Narwin";
+            this.cmbcsvfiles.ThemeName = "MetroLite";
+            this.cmbcsvfiles.SelectedIndexChanged += new System.EventHandler(this.cmbcsvfiles_SelectedIndexChanged);
+            // 
             // FrmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
@@ -1016,7 +1016,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private MetroSet_UI.Controls.MetroSetComboBox cmbpanel;
         private System.Windows.Forms.GroupBox grpboxcsvFiles;
-        private MetroSet_UI.Controls.MetroSetComboBox cmbcsvfiles;
         private System.Windows.Forms.TableLayoutPanel tbllayoutinneruser;
         private MetroFramework.Controls.MetroLabel metroLabel4;
         private MetroSet_UI.Controls.MetroSetButton btnsavecsv;
@@ -1025,6 +1024,7 @@
         private MetroSet_UI.Controls.MetroSetLabel metroSetLabel2;
         private MetroSet_UI.Controls.MetroSetButton btnmotorlimt;
         private System.Windows.Forms.NumericUpDown nmrcmotorvalue;
+        private MetroSet_UI.Controls.MetroSetComboBox cmbcsvfiles;
         // private Telerik.WinControls.UI.RadGridView radGridView1;
     }
 }
