@@ -201,7 +201,9 @@ namespace FlexMold.Forms
             else
             {
                 
-                cmbcsvfiles.DataSource = null;
+                cmbcsvfiles.DataSource = null; 
+                txtBoxMinValue.Text = "";
+                txtboxMaxValue.Text = "";
                 MessageBox.Show("No CSV File is Available In This Panel");
             }
 
@@ -225,11 +227,19 @@ namespace FlexMold.Forms
             try
             {
                 var lines = File.ReadAllLines(path).Select(a => a.Split(',')).ToList();
-               
+
+                decimal[] csvvalues = new decimal[lines[0].Length];
+
+                for(int i = 0; i < lines[0].Length; i++)
+                {
+                    csvvalues[i] = Convert.ToDecimal(lines[0][i].ToString());
+                }
+
+
 
                 txtboxMaxValue.ForeColor = Color.White;
                 txtBoxMinValue.Text = lines[0].Min();
-                txtboxMaxValue.Text = lines[0].Max();
+                txtboxMaxValue.Text = Convert.ToDecimal(csvvalues.Max()).ToString();
 
              
             }
@@ -417,6 +427,7 @@ namespace FlexMold.Forms
             ListBoxItems selectedvalue = (ListBoxItems)cm.SelectedItem;
             if (selectedvalue != null)
             {
+                
                 string Path = selectedvalue.Value;
                 ReadCSVFile(Path);
             }
