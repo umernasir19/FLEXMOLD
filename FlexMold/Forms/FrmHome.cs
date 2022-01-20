@@ -274,6 +274,7 @@ namespace FlexMold.Forms
                     {
                         var oldcsvvalue =Convert.ToDecimal(lines[0][i].ToString());
                         var newcsvvalue = (oldcsvvalue * NewMotorValue ) / 100;
+                        newcsvvalue = newcsvvalue + oldcsvvalue;
                         lstnewcsvvalues.Add(newcsvvalue.ToString());
                          
 
