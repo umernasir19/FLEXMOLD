@@ -273,7 +273,8 @@ namespace FlexMold.Forms
                     for (int i = 0; i < lines[0].Length; i++)
                     {
                         var oldcsvvalue =Convert.ToDecimal(lines[0][i].ToString());
-                        var newcsvvalue = (oldcsvvalue * NewMotorValue ) / 100;
+                        decimal PercentagetoMultiply = NewMotorValue / 100;
+                        decimal newcsvvalue = (oldcsvvalue * PercentagetoMultiply);
                         newcsvvalue = newcsvvalue + oldcsvvalue;
                         lstnewcsvvalues.Add(newcsvvalue.ToString());
                          
