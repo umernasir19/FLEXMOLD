@@ -49,19 +49,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>k4lWWORbkhx1BWgCwZNEgOLvByBcP/4geOF5Tg+WJS0=</dsig:DigestValue>
+        <dsig:DigestValue>oYTCBm30aLzIq8xyLAn+my/dO99paMRRuaLkhd0T2Ww=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlexMold.exe" size="48088">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlexMold.exe" size="58328">
       <assemblyIdentity name="FlexMold" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>zDsuDXHetXMl59RsDMMR3WmZV1OpOB3JuF2NOuNYZWg=</dsig:DigestValue>
+        <dsig:DigestValue>V3o2L9W5+Vqk/LKggj4JjL7tHxkTfTJ9bPD45IeBbfg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -73,7 +73,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Jt/hqfmAsCGHdl4Coc69CF5k3g4QY/BuOxi1vEZecws=</dsig:DigestValue>
+        <dsig:DigestValue>GBPaSbVtJD1DJcTadsKznhYomSYN/p/hdx61t0QibN8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

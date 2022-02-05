@@ -12,4 +12,3 @@ C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main
 C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\Propert_Utility\obj\Debug\Propert_Utility.csproj.CoreCompileInputs.cache
 C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\Propert_Utility\obj\Debug\Propert_Utility.dll
 C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\Propert_Utility\obj\Debug\Propert_Utility.pdb
-C:\Users\umer.nasir\OneDrive - Aga Khan University\Desktop\Umer\VS\FLEXMOLD-main\Propert_Utility\obj\Debug\Propert_Utility.csproj.AssemblyReference.cache

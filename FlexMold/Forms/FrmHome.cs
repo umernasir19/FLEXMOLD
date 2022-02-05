@@ -236,7 +236,7 @@ namespace FlexMold.Forms
                 }
 
 
-
+                
                 txtboxMaxValue.ForeColor = Color.White;
                 txtBoxMinValue.Text = lines[0].Min();
                 txtboxMaxValue.Text = Convert.ToDecimal(csvvalues.Max()).ToString();
