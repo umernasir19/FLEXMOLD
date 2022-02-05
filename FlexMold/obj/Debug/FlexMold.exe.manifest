@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlexMold.exe" size="58328">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FlexMold.exe" size="60888">
       <assemblyIdentity name="FlexMold" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>V3o2L9W5+Vqk/LKggj4JjL7tHxkTfTJ9bPD45IeBbfg=</dsig:DigestValue>
+        <dsig:DigestValue>grSAqxwKeW5wkHpjOwwvsXVrGmGc73qrA8RjXCgx2Ik=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
