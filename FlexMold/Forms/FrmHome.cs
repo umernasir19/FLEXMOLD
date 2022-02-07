@@ -235,8 +235,18 @@ namespace FlexMold.Forms
                     csvvalues[i] = Convert.ToDecimal(lines[0][i].ToString());
                 }
 
+                decimal filemaxvalue = Convert.ToDecimal(csvvalues.Max());
+                if (filemaxvalue > MotorValue)
+                {
+                    lblfilemsg.Text = "File Has Value Greater Than the Limit";
+                    lblfilemsg.ForeColor = Color.Red;
+                }
+                else
+                {
+                    lblfilemsg.Text = "File Values Are in Limit";
+                    lblfilemsg.ForeColor = Color.Green;
+                }
 
-                
                 txtboxMaxValue.ForeColor = Color.White;
                 txtBoxMinValue.Text = lines[0].Min();
                 txtboxMaxValue.Text = Convert.ToDecimal(csvvalues.Max()).ToString();
